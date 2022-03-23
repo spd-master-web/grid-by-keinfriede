@@ -1,0 +1,90 @@
+:root {
+  --color-red: rgb(128, 38, 38);
+}
+
+/* universal selector */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  /* to scroll smoothly between sections */
+  scroll-behavior: smooth;
+}
+
+body {
+  /* remove the user agent stylesheet margins */
+  margin: 0;
+
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  color: rgb(28, 28, 28);
+}
+
+/* Navigation */
+.navigation {
+  padding: 2rem;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  display: flex;
+  flex-flow: column nowrap;
+
+  background-color:rgba(255,255,255,.6);
+}
+
+.navigation a {
+  height: 2rem;
+  width: 20rem;
+}
+
+/* Section */
+.student-section {
+  width: 100%;
+  height: 100vh;
+
+  position: relative;
+  background-color: #eee;
+}
+
+.student-section:nth-child(odd) {
+  background-color: #ddd;
+}
+
+
+.student-name {
+  /* remove the user agent stylesheet margins */
+  margin: 0;
+  margin-right: 2rem;
+
+  position: sticky;
+  top: 30px;
+
+  text-align: right;
+  font-size: 1em;
+}
+
+.student-reference-image {
+  width: 24rem;
+  height: auto;
+
+  position: sticky;
+  /* we dont know how high the nav is */
+  top: 14rem;
+
+}
+.student-grid-container {
+  width: 50vw;
+  height: 100vh;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  /* border: 1px solid red; */
+}
+
+/* we will take a 10-15min break now */
