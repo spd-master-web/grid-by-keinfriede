@@ -1,5 +1,14 @@
 :root {
-  --color-red: rgb(128, 38, 38);
+  --color-white: #c7ddf5;
+  --color-black: #201c2d;
+  --color-light-blue: #01a2f3;
+  --color-semi-light-blue: #027de5;
+  --color-red: #b81734;
+  --color-dark-red: #5c1a28;
+  --color-orange:#fd5201;
+  --color-yellow: #eda403;
+  --color-green: #357571;
+  --color-gray: #7684a7;
 }
 
 /* universal selector */
@@ -18,7 +27,7 @@ body {
 
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
-  color: rgb(28, 28, 28);
+  color: rgb(68, 62, 62);
 }
 
 /* Navigation */
@@ -54,7 +63,6 @@ body {
   background-color: #ddd;
 }
 
-
 .student-name {
   /* remove the user agent stylesheet margins */
   margin: 0;
@@ -74,8 +82,8 @@ body {
   position: sticky;
   /* we dont know how high the nav is */
   top: 14rem;
-
 }
+
 .student-grid-container {
   width: 50vw;
   height: 100vh;
@@ -84,13 +92,17 @@ body {
   top: 0;
   right: 0;
 
-  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+/* footer */
 footer {
   position: fixed;
   bottom: 0;
   left: 0;
+  right: 0;
 }
 
 footer p {

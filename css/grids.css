@@ -1,0 +1,52 @@
+/* COLORS */
+.white {
+  background-color: var(--color-white);
+}
+.black {
+  background-color: var(--color-black);
+}
+.light-blue {
+  background-color: var(--color-light-blue);
+}
+.semi-light-blue {
+  background-color: var(--color-semi-light-blue);
+}
+.red {
+  background-color: var(--color-red);
+}
+.dark-red {
+  background-color: var(--color-dark-red);
+}
+.orange {
+  background-color: var(--color-orange);
+}
+.yellow {
+  background-color: var(--color-yellow);
+}
+.green {
+  background-color: var(--color-green);
+}
+.gray {
+  background-color: var(--color-gray);
+}
+
+/* Silvia De Negri  */
+.grid-silvia {
+}
+.grid-silvia-one {
+}
+
+/* Luca Zammitti */
+
+/* Pauline Peeters */
+.grid-pauline {
+}
+
+/* Merlin Royer */
+
+/* Ece Sahin */
+.grid-ece {
+  width: 200px;
+  height: 300px;
+
+}
