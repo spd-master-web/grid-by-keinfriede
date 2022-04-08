@@ -40,6 +40,33 @@
 
 /* Pauline Peeters */
 .grid-pauline {
+  display: grid;
+
+  grid-template-columns: repeat(4, 4rem);
+  grid-template-rows: repeat(4, 6rem);
+
+  box-shadow: -10px 10px 0 var(--color-green);
+}
+
+.topbar{
+  /*background-color: var(--color-light-blue);*/
+
+  grid-row: 1 / 2;
+  grid-column: 1 / 5;
+}
+
+.rightbar {
+  grid-row: 2 / 5;
+  grid-column: 2 / 5;
+}
+.leftbar {
+
+  grid-row: 2 / 5;
+  grid-column: 1 / 2;
+}
+
+.shadow {
+  
 }
 
 /* Merlin Royer */
