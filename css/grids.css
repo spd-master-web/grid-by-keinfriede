@@ -148,6 +148,75 @@
 
 
 /* Merlin Royer */
+.grid-merlin {
+  height: 60%;
+  width: 90%;
+
+  display: grid;
+  grid-template-rows: repeat(10, 1fr);
+  grid-template-columns: repeat(10, 1fr);
+
+  background-color: rgb(60, 54, 48);
+}
+
+.frame-1 {
+  grid-column: 1 /span 10;
+  grid-row: 1 / 2;
+
+  background-color: var(--color-white);
+}
+
+.frame-2 {
+  grid-column: 10 / 11;
+  grid-row: 1 / span 10;
+
+  background-color: var(--color-white);
+}
+
+.plank-1 {
+  grid-column: 1 / span 4;
+  grid-row: 4 / span 7;
+
+  background-color: rgb(154, 107, 61);
+}
+
+.plank-2 {
+  grid-column: 4 / span 4;
+  grid-row: 9 / span 2;
+
+  background-color: rgb(178, 130, 82);
+}
+
+.plank-3 {
+  grid-column: 7 / span 3;
+  grid-row: 2 / span 9;
+
+  background-color: rgb(142, 113, 85);
+}
+
+.blue {
+  grid-column: 3 / span 7;
+  grid-row: 2 / span 3;
+
+  background-color: rgb(98, 196, 216);
+}
+
+.black {
+  grid-column: 4 / span 4;
+  grid-row: 5  / span 4;
+
+  background-color: rgb(0, 0, 0);
+}
+
+.red {
+  grid-column: 4 /span 4;
+  grid-row: 4;
+
+  background-color: rgb(163, 2, 2);
+}
+
+
+
 
 /* Ece Sahin */
 .grid-ece {
