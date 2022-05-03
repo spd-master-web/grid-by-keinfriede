@@ -118,9 +118,39 @@
 
 
 /* Luca Zammitti */
+.grid-luca {
+  width: 400px;
+  height: 550px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 20px -20px #ffffff;
+  display: grid; 
+  grid-template-columns: 0.2fr 1.8fr; 
+  grid-template-rows: 0.6fr 1.4fr 1fr; 
+  grid-template-areas: 
+    "blue-grid yellow-grid"
+    "red-grid red-grid"
+    "red-grid red-grid";
+}
+
+.blue-grid { 
+grid-area: blue-grid; 
+background-color: blue;
+}
+
+.yellow-grid { 
+grid-area: yellow-grid;
+background-color: rgb(255, 200, 0); 
+}
+
+.red-grid { 
+grid-area: red-grid;
+background-color: rgb(213, 27, 27); 
+}
 
 /* Pauline Peeters */
 .grid-pauline {
+  height: 500px;
+  width: 500px;
   display: grid;
 
   grid-template-columns: repeat(4, 4rem);
